@@ -18,7 +18,7 @@ int main() {
 
     auto inicio = steady_clock::now();
 
-    // Insertion Sort original
+    
     for (int i=1;i<n;i++) {
         int aux=a[i];
         int j=i-1;
