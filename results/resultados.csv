@@ -1,7 +1,0 @@
-Experimento;Algoritmo;Elementos;Comparaciones;Desplazamientos;Tiempo_ms
-1;Insertion Sort;1000;254 708;253 712;1 002
-1;Shellsort;1000;16 191;8 700;0
-2;Insertion Sort;10000;25 163 498;25 153 503;141.035
-2;Shellsort;10000;277 236;162 303;0.975
-3;Insertion Sort;100000;2 501 573 567;2 501 473 572;13 920
-3;Shellsort;100000;1 499 565;2 749 900;20.2043
