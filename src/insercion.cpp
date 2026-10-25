@@ -68,7 +68,7 @@ int main() {
 
     srand(time(0));
 
-    int tamanos[] = {1000, 10000, 100000};
+    int tamanos[] = {100, 1000, 10000};
     int cantidadTamanos = 3;
     int repeticiones = 30;
 
