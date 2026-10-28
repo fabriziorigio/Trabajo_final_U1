@@ -7,67 +7,56 @@ using namespace chrono;
 
 void insercion(int a[], int n, long long &comparaciones, long long &movimientos) {
 
-    for (int i = 1; i < n; i++) {
-
+    for (int i=1;i<n;i++){
         int aux = a[i];
-        int j = i - 1;
-
-        while (j >= 0) {
-
+        int j=i-1;
+        while (j>= 0){
             comparaciones++;
-
-            if (a[j] > aux) {
-                a[j + 1] = a[j];
+            if(a[j]>aux){
+                a[j+1]=a[j];
                 movimientos++;
                 j--;
             }
-            else {
+            else{
                 break;
             }
         }
-
-        a[j + 1] = aux;
+        a[j+1]=aux;
         movimientos++;
     }
 }
 
 void generarDatos(int a[], int n, int patron) {
 
-    if (patron == 1) {
-        // Aleatorio
-        for (int i = 0; i < n; i++) {
+    if (patron == 1){
+        for (int i=0; i<n;i++){
             a[i] = rand() % 100000;
         }
     }
-    else if (patron == 2) {
-        // Ascendente
-        for (int i = 0; i < n; i++) {
+    else if(patron==2){
+        for(int i = 0;i<n;i++){
             a[i] = i;
         }
     }
-    else if (patron == 3) {
-        // Descendente
-        for (int i = 0; i < n; i++) {
-            a[i] = n - i;
+    else if(patron==3){
+        for(int i=0; i<n; i++){
+            a[i]=n-i;
         }
     }
 }
 
-bool estaOrdenado(int a[], int n) {
-
-    for (int i = 0; i < n - 1; i++) {
+bool estaOrdenado(int a[], int n){
+    for (int i=0;i<n-1;i++){
         if (a[i] > a[i + 1]) {
             return false;
         }
     }
-
     return true;
 }
 
 int main() {
 
     srand(time(0));
-
     int tamanos[] = {100, 1000, 10000};
     int cantidadTamanos = 3;
     int repeticiones = 30;
@@ -94,12 +83,11 @@ int main() {
                 long long comparaciones = 0;
                 long long movimientos = 0;
 
-                auto inicio = steady_clock::now();
+                auto inicio =steady_clock::now();
 
                 insercion(a, n, comparaciones, movimientos);
 
                 auto fin = steady_clock::now();
-
                 double tiempo = duration<double, milli>(fin - inicio).count();
 
                 sumaTiempo += tiempo;
