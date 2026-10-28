@@ -73,14 +73,31 @@ El archivo: results/resultados.csv, contiene los resultados individuales de las 
 El archivo: results/promedios_resultados.csv, contiene los promedios obtenidos para cada combinacion de algoritmo, patron y tamaño.
 
 Resultados:
+
 Los resultados muestran que Shellsort presentó un mejor rendimiento general que Inserción, especialmente cuando aumentó el tamaño de la entrada.
 En el patrón descendente con 10000 elementos, Inserción alcanzó aproximadamente: 49 995 000 comparaciones y
 50 004 999 movimientos. Mientras que Shellsort realizo aproxidamente: 172 578 comparaciones y 182 565 movimientos.
+
 En cuanto a el tiempo de ejecucion, Shellsort present una ventaja obvia para entradas grandes. Para 10000 elementos y patrón aleatorio, Inserción obtuvo aproximadamente 69.16 ms, mientras que Shellsort obtuvo aproximadamente 2.33 ms.
 El metodo de insercion mostro un comportamiento favorable cuando los datos estaban ordenados de forma ascendente, esto porque necesita pocas operaciones.
 
 Coclusiones:
+
 Los experimentos muestran que Shellsort presenta un mejor rendimiento general que el algoritmo de Inserción bajo las condiciones evaluadas.
 Inserción puede ser conveniente para conjuntos pequeños o datos que ya se encuentran ordenados. Sin embargo, cuando aumenta el tamaño de la entrada o los datos presentan un orden desfavorable, el número de comparaciones y movimientos aumenta considerablemente.
+
 Shellsort logró reducir significativamente la cantidad de operaciones necesarias en comparación con Inserción y presentó un mejor comportamiento para los tamaños de entrada mayores.
 Por lo tanto, los resultados experimentales permiten comprobar que el rendimiento de un algoritmo de ordenamiento depende tanto del tamaño de la entrada como del patrón inicial de los datos.
+
+ Articulo cientifico:
+
+ El archivo se encuentra en la carpeta docs/, contiene la metodologia experimental, tablas, graficos, discusion y conclusiones de los resultados.
+
+ Video de demostracion del proyecto en youtube:
+Link del video: 
+
+ Version final del commit hash:
+ 
+ 
+
+ 
