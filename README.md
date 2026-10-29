@@ -94,10 +94,11 @@ Por lo tanto, los resultados experimentales permiten comprobar que el rendimient
  El archivo se encuentra en la carpeta docs/, contiene la metodologia experimental, tablas, graficos, discusion y conclusiones de los resultados.
 
  Video de demostracion del proyecto en youtube:
-Link del video: 
+ Link del video: https://youtu.be/FPdMO-engR8?si=LWeXmuUZllS-9O_W
 
  Version final del commit hash:
- 
+ 1968e35.
+ Este commit contiene la versión actualizada del código, los resultados experimentales y el artículo del proyecto.
  
 
  
