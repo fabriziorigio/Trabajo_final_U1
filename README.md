@@ -1,7 +1,7 @@
-# Comparacion experimental de algoritmos de ordenamiento
+# Comparación experimental de algoritmos de ordenamiento
 
- Descripcion del proyecto:
- ESte proyecto busca realizar una comparacion experimental entre los algoritmos de ordenamiento Insercion y Shellsort.
+ Descripción del proyecto:
+ Este proyecto busca realizar una comparacion experimental entre los algoritmos de ordenamiento Insercion y Shellsort.
  El objetivo es analizar el rendimiento eficiencia de estos algoritmos en el que consideraremos los diferentes tamaños y patrones de entrada. Se registro 3 metricas: tiempo, comparaciones y movimientos.
  Los experimentos se realizaron con los tamaños de entrada de 100, 1000 y 10000 elementos, usando los patrones aleatorio, ascendente y descendente, cada combinacion fue ejecutada 30 veces. utilizando los mismos datos de entrada para ambos algoritmos con el fin de realizar una comparacion justa.
 
